@@ -1,5 +1,6 @@
 package Polymorphism;
 class claculator{
+    int advancevaluebyone=1;
     public void adder(int x,int y){
         int s=x+y;
         System.out.println(s+" Not Overidden"); 
@@ -11,7 +12,7 @@ class claculator{
 }
 class advancedcalculator extends claculator{
     public void adder(int x,int y){
-        int s=x+y+1;
+        int s=x+y+advancevaluebyone;
         System.out.println(s+" Overidden"); 
     }
 }
