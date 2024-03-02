@@ -11,7 +11,7 @@ class dog extends animal{
         System.out.println(dogs+" Making Sound!");
     }
 }
-public class claasbasedexample {    
+public class classbasedexample {    
     public static void main(String[] args) {
         animal acl=new animal();
         dog dcl=new dog();
