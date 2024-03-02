@@ -1,5 +1,4 @@
 package Encapsulation;
-
 public class callclass {
     private int x;
     public void setter(int a){
@@ -8,5 +7,4 @@ public class callclass {
     public int getter(){
         return x;
     }
-    
 }

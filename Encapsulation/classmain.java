@@ -1,5 +1,4 @@
 package Encapsulation;
-
 public class classmain {
     public static void main(String[] args) {
         callclass cl=new callclass();
