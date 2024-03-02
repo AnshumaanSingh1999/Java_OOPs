@@ -3,13 +3,13 @@ package Inheritance;
 class company{
     String brand="Ford";
     public void company_message(){
-        System.out.println("Ford Company");
+        System.out.println(brand+" Company");
     }
 }
 class car extends company{
     String product="Mustang";
     public void car_message(){
-        System.out.println("Mustang car");
+        System.out.println(product+" car if of "+brand);
     }
 }
 
