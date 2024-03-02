@@ -14,7 +14,7 @@ class dog extends animal{
 public class claasbasedexample {    
     public static void main(String[] args) {
         animal acl=new animal();
-        animal dcl=new dog();
+        dog dcl=new dog();
         acl.function();
         dcl.function();
     }   
