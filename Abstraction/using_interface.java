@@ -1,19 +1,20 @@
 package Abstraction;
 
-interface animal{
-    public void iamprintvalue();
+interface animal1{
+    public abstract void function2();   
 }
 
-class dog implements animal{
-    public void iamprintvalue(){
-        System.out.println("I am here!");
+class dogy implements animal1{
+    public void function2(){
+        System.out.println("I am dog");
+
     }
 }
 
-
-class using_interface {
+public class using_interface {
     public static void main(String[] args) {
-        dog cl=new dog();
-        cl.iamprintvalue();   
-    }   
+        dogy cl=new dogy();
+        cl.function2();
+        
+    }
 }
