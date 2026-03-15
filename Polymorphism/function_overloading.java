@@ -1,20 +1,25 @@
 package Polymorphism;
 public class function_overloading {
-    public int adder(int x,int y){
-        int s=x+y;
+    static int TestFunction(int a, int b){
+        int s=a+b;
         return s;
     }
-    public double adder(double x,double y){
-        double s=x+y;
+    static double TestFunction(double a,double b){
+        double s=a+b;
         return s;
     }
-    public static void main(String[] args) {
-        int a=2;
-        int b=3;
-        function_overloading cl=new function_overloading();
-        int int_resp=cl.adder(a, b);
-        double double_resp=cl.adder(a, b);
-        System.out.println(int_resp);
-        System.out.println(double_resp);
+    static double TestFunction(double a){
+        double s=a;
+        return s;
+    }
+    public static void main(String args[]){
+        int a=1;
+        int b=1;
+        int f1=TestFunction(a,b);
+        System.out.println(f1);
+        double f2=TestFunction(a,b);
+        System.out.println(f2);
+        double f3=TestFunction(a);
+        System.out.println(f3);
     }
 }
